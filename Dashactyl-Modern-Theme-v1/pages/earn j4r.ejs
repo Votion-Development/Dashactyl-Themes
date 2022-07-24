@@ -1,0 +1,400 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Dashactyl | Earn J4R</title>
+      
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+      <link rel="stylesheet" href="../assets/css/backend-plugin.min.css">
+      <link rel="stylesheet" href="../assets/css/backend.css?v=1.0.0">
+      <link rel="stylesheet" href="../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" href="../assets/vendor/remixicon/fonts/remixicon.css">
+      
+      <link rel="stylesheet" href="../assets/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css">
+      <link rel="stylesheet" href="../assets/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css">
+      <link rel="stylesheet" href="../assets/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css">  </head>
+  <body class="  ">
+    <!-- loader Start -->
+    <div id="loading">
+          <div id="loading-center">
+          </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+      
+      <div class="iq-sidebar  sidebar-default ">
+          <div class="iq-sidebar-logo d-flex align-items-center">
+              <a href="../backend/index.html" class="header-logo">
+                  <img src="../assets/images/logo.png" alt="logo">
+                  <h3 class="logo-title light-logo">Dashactyl</h3>
+              </a>
+
+          </div>
+          <div class="data-scrollbar" data-scroll="1">
+              <nav class="iq-sidebar-menu">
+                  <ul id="iq-sidebar-toggle" class="iq-menu">
+                      <li class="active">
+                          <a href="/dashboard" class="svg-icon">                        
+                              <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                              </svg>
+                              <span class="ml-4">Dashboard</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="/servers/new" class="svg-icon">                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                              <span class="ml-4">Create Server</span>
+                          </a>
+                      </li>                          
+                      <li class="">
+                          <a href="/store" class="svg-icon">                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                              <span class="ml-4">Store</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="/earn/j4r" class="svg-icon">                        
+                              <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                              </svg>
+                              <span class="ml-4">Earn J4R</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="/earn/afk" class="svg-icon">                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                              <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                            </svg>
+                              <span class="ml-4">Earn Afk Coin</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="/earn/redeem" class="svg-icon">                        
+                              <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line>
+                              </svg>
+                              <span class="ml-4">Redeem Code</span>
+                          </a>
+                      </li>
+
+                          </ul>
+                      </li>
+                  </ul>
+              </nav>
+              <div class="pt-5 pb-2"></div>
+          </div>
+      </div>      <div class="iq-top-navbar">
+          <div class="iq-navbar-custom">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
+                      <i class="ri-menu-line wrapper-menu"></i>
+                      <a href="../backend/index.html" class="header-logo">
+                          <h4 class="logo-title text-uppercase">Dashactyl</h4>
+      
+                      </a>
+                  </div>
+                  <div class="navbar-breadcrumb">
+                  </div>
+                  <div class="d-flex align-items-center">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-label="Toggle navigation">
+                          <i class="ri-menu-3-line"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto navbar-list align-items-center">
+
+                              <li class="nav-item nav-icon nav-item-icon dropdown">
+                                  <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton"
+                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" class="feather feather-bell">
+                                          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                          <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                      </svg>
+                                      <span class="bg-primary "></span>
+                                  </a>
+ <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <div class="card shadow-none m-0">
+                                          <div class="card-body p-0 ">
+                                              <div class="cust-title p-3">
+                                                  <div class="d-flex align-items-center justify-content-between">
+                                                      <h5 class="mb-0">Notifications</h5>
+                                                      <a class="badge badge-primary badge-card" href="#"></a>
+                                                  </div>
+                                              </div>
+                                              <div class="px-3 pt-0 pb-0 sub-card">
+                                                  <a href="#" class="iq-sub-card">
+                                                      <div class="media align-items-center cust-card py-3 border-bottom">
+                                                    
+
+                                                          <div class="media-body ml-3">
+
+                        <div class="d-flex align-items-center justify-content-between">
+                          <% if (variables) { %>
+                                    <h6 class="mb-0 "><% if (variables.error && status_replies.error[variables.error]) { %>
+        <p style="color: red;"><%- eval(`\`${status_replies.error[variables.error]}\``) %></p>
+    <% } else if (variables.success && status_replies.success[variables.success]) { %>
+        <p style="color: green;"><%- eval(`\`${status_replies.success[variables.success]}\``) %></p>
+    <% } else { %>
+        <p>
+            <%= JSON.stringify(variables) %>
+        </p>
+        <% } %></h6>
+        <% } %>
+                
+                                                                
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="nav-item nav-icon dropdown caption-content">
+                                  <a href="#" class="search-toggle dropdown-toggle  d-flex align-items-center" id="dropdownMenuButton4"
+                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <img src="https://cdn.discordapp.com/avatars/<%= data.userinfo.id%>/<%= data.userinfo.avatar%>.png?size=1024" class="img-fluid rounded-circle" alt="user">
+                                      <div class="caption ml-3">
+                                          <h6 class="mb-0 line-height"><%= data.userinfo.username %>#<%= data.userinfo.discriminator %><i class="las la-angle-down ml-2"></i></h6>
+                                      </div>
+                                  </a>                            
+                                  <ul class="dropdown-menu dropdown-menu-right border-none" aria-labelledby="dropdownMenuButton">
+                                      <li class="dropdown-item d-flex svg-icon">
+                                          <svg class="svg-icon mr-0 text-primary" id="h-01-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                          </svg>
+                                          <a href="#">My Profile</a>
+                                      </li>
+                                      <li class="dropdown-item d-flex svg-icon">
+                                          <svg class="svg-icon mr-0 text-primary" id="h-02-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                          </svg>
+                                          <a href="#">Edit Profile</a>
+                                      </li>
+                                      <li class="dropdown-item d-flex svg-icon">
+                                          <svg class="svg-icon mr-0 text-primary" id="h-03-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                          </svg>
+                                          <a href="#">Account Settings</a>
+                                      </li>
+                                      <li class="dropdown-item d-flex svg-icon">
+                                          <svg class="svg-icon mr-0 text-primary" id="h-04-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                          <a href="#">Privacy Settings</a>
+                                      </li>
+                                      <li class="dropdown-item  d-flex svg-icon border-top">
+                                          <svg class="svg-icon mr-0 text-primary" id="h-05-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                                          </svg>
+                                          <a href="/accounts/logout">Logout</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>      <div class="content-page">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Memory</h5>
+                        </div>
+                        <h3><span class="counter"><%= current.memory %>MB / <%= total.memory %>MB</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Disk</h5>
+                        </div>
+                        <h3><span class="counter"><%= current.disk %>MB / <%= total.disk %>MB</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Core</h5>
+                        </div>
+                        <h3><span class="counter"><%= current.cpu %>% / <%= total.cpu %>%</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Servers</h5>
+                        </div>
+                        <h3><span class="counter"><%= current.servers %> server<%= current.servers == 1 ? "" : "s" %> / <%= total.servers %> server<%= total.servers == 1 ? "" : "s" %></span></h3>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Coins</h5>
+                        </div>
+                        <h3><span class="counter"><%= data.dbinfo.coins %> coin<%= data.dbinfo.coins == 1 ? "" : "s" %></span></h3>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-8 col-lg-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="top-block d-flex align-items-center justify-content-between">
+                            <h5>Package</h5>
+                        </div>
+                        <h3><span class="counter"><%= package.display %></span></h3>
+                    </div>
+                </div>
+            </div>            
+            <div class="col-xl-8">
+                <div class="card-transparent card-block card-stretch card-height">
+                    <div class="card-body p-0">
+                        <div class="card">
+
+
+      <table class="table mb-0 table-borderless tbl-server-info">
+        <thead>
+          <tr class="light">
+            <th scope="col">Server Name</th>
+            <th scope="col">Memory</th>
+            <th scope="col">Disk</th>
+            <th scope="col">CPU</th>
+            <th scope="col">Servers</th>
+            <th scope="col">Expires Time</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+
+                    <td>HellNodes</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><a target=”_blank" href="https://discord.gg/52mzbJZb" class="btn btn-primary">Join</a></td></td>
+
+          </tr>
+        </tbody>
+      </table>
+
+             </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4">
+                <div class="card card-block card-stretch card-height">
+                    <div class="card-body">
+                        <div class="card card-list">
+                            <div class="table-responsive rounded bg-white">
+                               
+                     
+          <div class="mb-3">
+                <label class="form-label">Panel Username</label>
+                <input class="form-control" value="<%= data.panelinfo.username %>" disabled>
+            </div>
+          <div class="mb-3">
+                <label class="form-label">Panel Email</label>
+                <input class="form-control" value="<%= data.panelinfo.email %>" disabled>
+            </div>            
+          <div class="mb-3">
+                <label class="form-label">Panel Password</label>
+                <input style="color:red" value="<%= variables ? (variables.password ? `${variables.password}` : "") : "" %>" disabled class="form-control">
+            </div>
+            <form action="<%= settings.pterodactyl.domain %>">
+                    <button type="sumbit" class="btn btn-primary">Panel (Link)</button>
+            </form>
+                    <br>
+            <form action="/accounts/regenerate_password" method="POST">
+                    <button type="sumbit" class="btn btn-primary">Reset Password</button>
+            </form>
+                    <br>
+        <form action="/accounts/update_information" method="POST">   
+                    <button type="sumbit" class="btn btn-primary">Update Information</button>
+             </form>       
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        <!-- Page end  -->
+    </div>
+      </div>
+    </div>
+    <!-- Wrapper End-->
+   
+    <footer class="iq-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <span class="mr-1"><script>document.write(new Date().getFullYear())</script>©</span> <a href="#" class="">Webkit</a>  &  <a href="https://dashactylmarket.com" class="">Design by mRpRiNcEx</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Backend Bundle JavaScript -->
+    <script src="../assets/js/backend-bundle.min.js"></script>
+    
+    <!-- Table Treeview JavaScript -->
+    <script src="../assets/js/table-treeview.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script src="../assets/js/customizer.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script async src="../assets/js/chart-custom.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script async src="../assets/js/slider.js"></script>
+    
+    <!-- app JavaScript -->
+    <script src="../assets/js/app.js"></script>
+    
+    <script src="../assets/vendor/moment.min.js"></script>
+
+
+  </body>
+</html>
