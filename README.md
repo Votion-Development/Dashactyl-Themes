@@ -1,19 +1,17 @@
-# Dashactyl-Themes
-This is a repo for Dashactyl themes to be published on.
-
+# Dashactyl Themes
+The official repository for verified and free Dashactyl themes.
 
 ## How do I publish a theme?
+Create a pull request using the following template:
 
-Make a pull request adding your theme in a folder. In the folder, create a README.md file with the following format:
 ```
-Theme Name: Theme name here
+Name: the theme name
 
-Dashactyl Version: Dashactyl Version (Example: v2)
+Author: the theme author (Discord tag or Github username)
 
-Theme Language: Language here (Example: English)
+Version: the dashactyl version (v1 or v2)
 
-Made in: Coding language/framework made in (Example: React)
-
-Creator: Your name here
+Framework: the framework used (e.g. React)
 ```
-Then someone will test and review the theme, then merge the pull request.
+
+The files must be in a folder with the name of the theme. Please make sure that the theme works before opening a pull request, broken themes will not be accepted. If there is a bug with themes in this repository, report it to the author so that it can be fixed, or to us (the Votion team) so that it can be removed.
