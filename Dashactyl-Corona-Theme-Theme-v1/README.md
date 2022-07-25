@@ -11,7 +11,7 @@ Creator: acktar
 ```
 Replace files in frontend folder to install
 
-Quote fromm creator:
+Quote from creator:
 
 In order for the shop to work correctly, you need to set the per/unit as below in your settings.yml file. You can change the price as you want but keep the (per) so that the page functions correctly. else you might need to edit the store.ejs file yourself
 
