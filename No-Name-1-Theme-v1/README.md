@@ -1,5 +1,5 @@
 ```
-Theme Name: No Name 1
+Theme Name: Corona Theme
 
 Dashactyl Version: v1
 
@@ -7,7 +7,7 @@ Theme Language: English
 
 Made in: EJS
 
-Creator: Abraar#7724
+Creator: acktarcodes
 ```
 Replace files in frontend folder to install
 
