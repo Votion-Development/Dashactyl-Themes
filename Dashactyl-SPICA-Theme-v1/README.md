@@ -1,13 +1,13 @@
 ```
-Theme Name: SPICA Theme
+Name: SPICA Theme
 
-Dashactyl Version: v1
+Author: acktarcodes
 
-Theme Language: English
+Version: v1
 
-Made in: EJS
+Language: English
 
-Creator: acktarcodes
+Framework: EJS
 ```
 Replace files in frontend folder to install
 

@@ -1,13 +1,13 @@
 ```
-Theme Name: Dashactyl Hope UI v1
+Name: Dashactyl Hope UI v1
 
-Dashactyl Version: v1
+Author: -princex#5508
 
-Theme Language: English
+Version: v1
 
-Made in: EJS
+Language: English
 
-Creator: -princex#5508
+Framework: EJS
 ```
 Replace files in frontend folder to install
 
@@ -40,5 +40,3 @@ Theme settings (Members)
 
 Nofications
 ![image](https://user-images.githubusercontent.com/36241002/141698496-2431e45d-6749-496b-96f6-c753c6663d26.png)
-
-

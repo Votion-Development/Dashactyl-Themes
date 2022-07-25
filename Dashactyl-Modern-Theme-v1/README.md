@@ -1,12 +1,12 @@
 ```
-Theme Name: Dashactyl Modern Theme v1
+Name: Dashactyl Modern Theme v1
 
-Dashactyl Version: v1
+Author: -princex#5508
 
-Theme Language: English
+Version: v1
 
-Made in: EJS
+Language: English
 
-Creator: -princex#5508
+Framework: EJS
 ```
 Replace files in frontend folder to install

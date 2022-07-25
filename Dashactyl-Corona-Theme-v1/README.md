@@ -1,13 +1,13 @@
 ```
-Theme Name: No Name 1
+Name: No Name 1
 
-Dashactyl Version: v1
+Author: Abraar#7724
 
-Theme Language: English
+Version: v1
 
-Made in: EJS
+Language: English
 
-Creator: Abraar#7724
+Framework: EJS
 ```
 Replace files in frontend folder to install
 
