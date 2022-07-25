@@ -11,6 +11,8 @@ Author: the theme author (Discord tag or Github username)
 
 Version: the dashactyl version (v1 or v2)
 
+Language: the theme language
+
 Framework: the framework used (e.g. React)
 ```
 
