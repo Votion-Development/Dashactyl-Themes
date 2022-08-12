@@ -1,5 +1,5 @@
 ```
-Name: No Name 1
+Name: Corona Theme
 
 Author: Abraar#7724
 
