@@ -122,7 +122,7 @@ export default function CardStore() {
 				   :
                             <form>
                                 <div className="form-group">
-                                    <label htmlFor="disk_amount">Disk</label>
+                                    <label htmlFor="disk_amount">1MB Disk Cost: {diskPrice} coins</label>
                                     <input type="text" className="form-control form-control-alternative"
                                         name="disk_amount" id="disk_amount" placeholder=" " required/>
                                 </div>
@@ -133,7 +133,7 @@ export default function CardStore() {
 				   :
                             <form>
                                 <div className="form-group">
-                                    <label htmlFor="cpu_amount">CPU</label>
+                                    <label htmlFor="cpu_amount">1% CPU Cost: {cpuPrice} coins</label>
                                     <input type="text" className="form-control form-control-alternative"
                                         name="cpu_amount" id="cpu_amount" placeholder=" " required/>
                                 </div>
